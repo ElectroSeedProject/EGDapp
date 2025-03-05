@@ -12,7 +12,7 @@ plugins {
 android {
     namespace = "com.example.dddd"
     compileSdk = flutter.compileSdkVersion
-    ndkVersion = flutter.ndkVersion
+    ndkVersion = "27.0.12077973"
 
     compileOptions {
         sourceCompatibility = JavaVersion.VERSION_11
@@ -48,4 +48,3 @@ flutter {
 }
 
 
-apply(plugin = "com.google.gms.google-services")
