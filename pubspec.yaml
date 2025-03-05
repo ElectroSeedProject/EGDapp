@@ -47,6 +47,14 @@ dependencies:
   crypto: ^3.0.6
   qr_flutter: ^4.1.0
   local_auth: ^2.3.0
+  web3dart: ^2.7.3
+  hex: ^0.2.0
+  pointycastle: ^3.9.1
+  web3dart: ^2.6.0
+  # flutter_secure_storage: ^8.0.0
+  encrypt: ^5.0.0
+  # local_auth: ^2.1.6
+  image_picker: ^1.1.2
 
 dev_dependencies:
   flutter_test:

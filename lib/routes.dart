@@ -14,6 +14,7 @@ class AppRoutes {
   static const String market = '/market';
   static const String profile = '/profile';
   static const String reels = '/reels';
+  static const String wallet = '/wallet';
 
   static Route<dynamic> generateRoute(RouteSettings settings) {
     switch (settings.name) {
@@ -29,8 +30,8 @@ class AppRoutes {
         return MaterialPageRoute(builder: (_) => ProfilePage());
       case reels:
         return MaterialPageRoute(builder: (_) => ReelsPage());
-      case '/wallet':
-        return MaterialPageRoute(builder: (_) => WalletPage());
+      case wallet:
+        return MaterialPageRoute(builder: (_) => WalletScreen());
 
       default:
         return MaterialPageRoute(
